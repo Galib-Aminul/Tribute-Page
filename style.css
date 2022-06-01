@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700;800&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  background-color: #ddd;
+  color: #555;
+}
+
+#title > h1 {
+  display: flex;
+  justify-content: center;
+  padding: none;
+  color: #333;
+  font-size: 45px;
+}
+
+#title > h3 {
+  display: flex;
+  justify-content: center;
+  color: #333;
+  font-weight: 500;
+}
+
+#img-div{
+  background-color: #fff;
+  padding: 0px 5px 10px 5px;
+  border-radius: 20px;
+
+}
+
+#image {
+  max-width: auto;
+  height: 100%;
+  display: block;
+  margin: auto;
+  width: 90%;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+#img-caption {
+  max-width: 90%;
+  text-align: center;
+  font-weight: 500;
+  margin: auto;
+}
+
+#tribute-info {
+ display: grid;
+justify-items: center;
+ 
+}
+
+#tribute-info > ul {
+  text-align: start;
+  margin: auto;
+  max-width: 60%;
+  font-weight: 500;
+  
+}
+
+.footer {
+ text-align:center;
+ font-weight: 500;
+ font-size: 25px;
+ margin-bottom: 25px;
+}
+
+#tribute-link{
+  text-decoration: none;
+}
+
+
